@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
 
-var Schema = mongoose.Schema,
-	ObjectID = Schema.ObjectID;
-const  cschema = Schema({
+var Schema = mongoose.Schema;
+var ObjectId = Schema.ObjectId;
+const  cschema = new Schema({
 	ID:{
-		type: ObjectID,
+		type: ObjectId,
 		required: true
 	},
 	Name: {
