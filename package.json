@@ -10,6 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/shiv0408/cvm.git"
   },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "nodemon": "*"
+  },
   "author": "Shivansh Arora",
   "license": "ISC",
   "bugs": {
