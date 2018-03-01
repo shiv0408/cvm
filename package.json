@@ -11,7 +11,9 @@
     "url": "git+https://github.com/shiv0408/cvm.git"
   },
   "dependencies": {
+    "body-parser": "*",
     "express": "*",
+    "mongodb": "^3.0.3",
     "mongoose": "*",
     "nodemon": "*"
   },
